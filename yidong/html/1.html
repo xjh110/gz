@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.js"></script>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            animation: mo 5s infinite;
+            margin: 0 auto;
+            transition: all 1s;
+            transform-origin: center center;
+            /* transform: translateY(150px) rotateX(-90deg); */
+        }
+        
+        @keyframes mo {
+            0%{
+               transform: scale(1);
+                
+            }
+            
+            50%{
+                transform: scale(0.3);
+                border: 3px solid #fff;
+            }
+            
+            100%{
+                transform: scale(1);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    
+   
+</body>
+</html>
